@@ -33,5 +33,5 @@ jobs:
     - name: Push Docker Image
       run: |
         docker push cyberar8204/docker-graphql:0.0.3
-        docker push cyberar8204/docker-graphql:latest
+   #     docker push cyberar8204/docker-graphql:latest
    #   run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
