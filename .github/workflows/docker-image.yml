@@ -28,10 +28,10 @@ jobs:
         
     - name: Build Docker Image
       run: |
-        docker build -t cyberar8204/docker-graphql:0.0.3 .
+        docker build -t cyberar8204/docker-graphql:0.0.4 .
 
     - name: Push Docker Image
       run: |
-        docker push cyberar8204/docker-graphql:0.0.3
+        docker push cyberar8204/docker-graphql:0.0.4
    #     docker push cyberar8204/docker-graphql:latest
    #   run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
